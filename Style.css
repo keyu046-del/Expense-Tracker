@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 480px;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 { text-align: center; }
+.balance { text-align: center; margin-bottom: 20px; }
+
+.inc-exp-container {
+  display: flex;
+  justify-content: space-between;
+  background: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+}
+
+.money.plus { color: green; }
+.money.minus { color: red; }
+
+.actions { display: flex; gap: 8px; margin-bottom: 14px; }
+
+form input, form select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #4caf50;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+button:hover { background: #45a049; }
+
+#exportBtn {
+  width: auto;
+  background: #2563eb;
+  margin: 0;
+}
+#exportBtn:hover { background: #1d4ed8; }
+
+.list { list-style: none; padding: 0; }
+
+.list li {
+  background: #eee;
+  padding: 10px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.delete-btn {
+  background: red;
+  color: #fff;
+  border: none;
+  padding: 3px 6px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+canvas { margin-top: 10px; }
